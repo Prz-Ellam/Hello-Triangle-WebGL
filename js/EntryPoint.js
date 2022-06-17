@@ -35,10 +35,7 @@ function main() {
             v_Color = a_Color;
         }
     `;
-
-    var fr=new FileReader();
-    console.log(fr.readAsDataURL("assets//VertexShader.glsl"));
-
+    
     var fragmentShader = `
         precision mediump float;
 
